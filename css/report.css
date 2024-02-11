@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #000000; /* Warna latar belakang navbar: hitam */
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Warna teks link navbar: putih */
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

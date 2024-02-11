@@ -1,0 +1,68 @@
+/* CSS for the navbar */
+.navbar {
+    background-color: #000000; /* Warna latar belakang navbar: hitam */
+}
+
+.navbar-brand {
+    color: #ffffff; /* Warna teks navbar: putih */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Warna teks link navbar: putih */
+}
+
+/* CSS for form */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; /* Menambahkan margin bawah untuk memberikan ruang dengan footer */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea,
+input[type="date"],
+input[type="file"],
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    padding-top: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
